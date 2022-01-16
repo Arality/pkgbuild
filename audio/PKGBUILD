@@ -1,0 +1,9 @@
+pkgname='audio'
+pkgver=1.0.0
+pkgrel=1
+arch=('any')
+package=() {
+   depends=(pipewire wireplumber)
+   
+   install="$pkgdir/audio.install"
+}
