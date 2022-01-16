@@ -1,7 +1,7 @@
-pkgname=foobar
+pkgname='foobar'
 pkgver=1.0.0
 pkgrel=1
-arch=(any)
+arch=('any')
 package=() {
    depends=(bla blu bli hoho some others here)
 }
